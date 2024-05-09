@@ -1,14 +1,14 @@
-/* ************************************************************************** */
+/******************************************************************************/
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kquerel <kquerel@student.42.fr>            +#+  +:+       +#+        */
+/*   By: karl <karl@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 18:13:26 by kquerel           #+#    #+#             */
-/*   Updated: 2022/12/22 18:41:40 by kquerel          ###   ########.fr       */
+/*   Updated: 2024/05/10 00:02:56 by karl             ###   ########.fr       */
 /*                                                                            */
-/* ************************************************************************** */
+/******************************************************************************/
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
@@ -18,14 +18,17 @@
 # include <stdio.h>
 # include <string.h>
 
-size_t	ft_strlen(char *str);
+// ft_printf
 int		ft_printf(const char *format, ...);
+int		ft_percent(va_list ap, const char *format);
+
+// Utils
+size_t	ft_strlen(char *str);
 int		ft_putchar(char c);
 int		ft_putstring(char *str);
 int		ft_pointer(unsigned long long ptr, char *base, int trigger);
 int		ft_putnbr(long long n, char *base);
 int		ft_puns(unsigned long long n, char *base);
-int		ft_percent(va_list ap, const char *format);
 int		ft_nbrlen(long int n, int base_len);
 int		ft_ptrlen(unsigned long long n, int base_len);
 
