@@ -1,5 +1,4 @@
 <a id="top"></a>
-
 # ft_printf
 `ft_printf` aims to recreate the standard C library function `printf` from scratch. The goal is to understand variadic functions and the parsing of format strings.
 
@@ -50,6 +49,6 @@ int main()
 | `%p`             | Pointer address                                   |
 
 
-For a complete list of supported format specifiers and flags, refer to the `ft_printf` subject.
+For a complete list of supported format specifiers and flags, refer to the [subject PDF](https://github.com/KarlQuerel/ft_printf/blob/master/docs/en.subject.pdf).
 
 [Back to Top](#top)
