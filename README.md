@@ -14,9 +14,20 @@ The `ft_printf` function is a fundamental part of the C standard library, respon
 
 
 ## Installation
-1. Clone this repository.
-2. Navigate to the root directory of the project.
-3. Compile the library using `make`.
+1. Clone this repository to your local machine:
+	```sh
+	git clone https://github.com/KarlQuerel/42-ft_printf.git
+	```
+
+2. Navigate to the project directory:
+	```sh
+	cd ft_printf
+	```
+
+3. Compile the project using `make`:
+	```sh
+	make
+	```
 4. Include the `ft_printf.h` header file in your C source files.
 
 ## Usage
