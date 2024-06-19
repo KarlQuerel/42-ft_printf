@@ -4,9 +4,9 @@
 
 ## Table of Contents
 - [About](#about)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Supported Format Specifiers](#supported-format-specifiers)
-- [Example Usage](#example-usage)
 
 
 ## About
