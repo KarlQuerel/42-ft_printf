@@ -21,7 +21,7 @@ The `ft_printf` function is a fundamental part of the C standard library, respon
 
 2. Navigate to the project directory:
 	```sh
-	cd ft_printf
+	cd 42-ft_printf
 	```
 
 3. Compile the project using `make`:
